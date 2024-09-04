@@ -1,0 +1,90 @@
+.mainheader{
+    background-color:  rgba(17, 17, 17, 1);
+   
+}
+.display-flex{
+    display: flex;
+}
+.fitness{
+    color: 
+    rgba(230, 83, 60, 1);
+    font-style: italic;
+    font-size: 2.2rem ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navber {
+   justify-content: space-between;
+    max-width: 1060px;
+    margin-left: 190px;
+    text-decoration: none;
+    list-style: none;
+}
+.navber ul{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.5rem;
+    gap: 47px;
+    max-width: 465px;
+    height: 46px;
+    align-items: center; 
+    margin-top: 38px; 
+    background: rgba(230, 83, 60, 1);
+   
+}
+.navber ul {
+    list-style: none;
+}
+
+.navber ul li  a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 1);
+   margin-left: -20px;
+   margin-right: 20px;
+   font-size: 1.1rem;
+   font-weight: 400;
+}
+.change{
+    max-width: 1044px;
+   margin-top: 100px;
+   
+}
+.changeyour{
+     font-size: 3rem;
+     font-weight: 900;
+     color:rgba(255, 255, 255, 1) ;
+     text-align: center;
+}
+.changepg{
+    font-size:0.90rem;
+    color:rgba(255, 255, 255, 0.5) ;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -30px;
+}
+.changeimg{
+    margin-top: 60px;
+    margin: 60px 198px ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.image img {
+    border-radius: 100px;
+}
+.changetitel{
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+   
+}
+.habitspg{
+    color:
+    rgba(255, 255, 255, 0.5) ;
+    font-weight: 400;
+    font-size: 0.70rem; 
+    text-align: center;
+    margin-top: -20px;
+}
