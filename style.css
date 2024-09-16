@@ -6,13 +6,19 @@
   font-style: normal;
 }
 @import url('https://fonts.cdnfonts.com/css/miama');
-main{
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
     background: black;
 }
-
-
 .display-flex{
     display: flex;
+   
 }
 
 .mainheader{
@@ -20,28 +26,26 @@ main{
     max-width: 1440px;
    
 }
-.maincontener{
-    max-width: 1060px;
-}
-
+.navber {
+    justify-content: space-between;
+     max-width: 1060px;
+     margin-left: 190px;
+     text-decoration: none;
+     list-style: none;
+     gap: -100px;
+ }
 .fitness{
     color: rgba(230, 83, 60, 1);
     font-style: italic;
     font-size: 2.2rem ;
     font-weight: bold;
-}
-.navber {
-   justify-content: space-between;
-    max-width: 1060px;
-    margin-left: 190px;
-    text-decoration: none;
-    list-style: none;
+    margin-top: 40px;
 }
 .navber ul{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2.5rem;
     justify-content: left;
-    margin-right: 70px;
+    margin-right: 170px;
     max-width: 465px;
     height: 46px;
     align-items: center; 
@@ -74,13 +78,20 @@ main{
    margin: 0;
    
 }
+.bodys{
+    padding-top: 96px;
+    flex: 1;
+    padding-top: 96px;
+}
 .getbody{
     margin-left: 194px;
     margin-right: 194px;
+    justify-content: space-between;
+    align-items: center;
    
 }
 .bodyh3{
-    font-size: 4.87rem;
+    font-size: 4.875rem;
     font-weight: 900;
     line-height: 93px;
     color: rgba(255, 255, 255, 1);
@@ -88,7 +99,7 @@ main{
 }
 .shape{
     font-family: Miama;
-    font-size: 4.87rem;
+    font-size: 4rem;
     font-style: italic;
     font-weight: 400;
     line-height: 93.6px;
@@ -98,14 +109,14 @@ main{
 .bodypg{
   font-size: 1rem;
   font-weight: 400;
-  margin-top: -50px;
+  padding-top:22px ;
    color: rgba(255, 255, 255, 0.5);
+   padding-bottom: 20px;
 }
 .bodybtn{
      max-width: 224px;
      background-color:rgba(230, 83, 60, 1) ;
      padding: 16px 40px 16px 40px;
-     margin-top:15px ;
      border-radius: 42px;
      border: none; 
      margin-right: 20px;
@@ -134,24 +145,114 @@ main{
     font-size: 1.1rem;
     font-weight: 600;
 }
-.bodyimg{
+.bodyimg {
     max-width: 580px;
-    height: 580px;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: -80px;
+    margin-top: 50px;  
 }
+.videocontener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 96px;
+    background-color: rgba(48, 48, 48, 0.54);
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+.video_tutorial{
+    display: flex;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    /* Transparent black background */
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    box-shadow: transparent;
+   
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+.videotext{
+    font-size: 1.5rem;
+    margin-left: 12px;
+}
+.tutorial{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    opacity: 0.7;
+}
+.fivehundrad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    width:193px ;
+    margin: 0; 
+}
+.free_video{
+    display: flex;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    /* Transparent black background */
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    box-shadow: transparent; 
+}
+.five{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 1);
+   
+}
+.workout{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.65) ;
+    opacity: 0.7;
+    padding-bottom: 10px;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .change{
     max-width: 1044px;
-   
-   
 }
 .changeyour{
      font-size: 3rem;
      font-weight: 900;
      color:rgba(255, 255, 255, 1) ;
      text-align: center;
+     padding: 50px;
 }
 .changepg{
     font-size:0.90rem;
-    color:rgba(255, 255, 255, 0.5) ;
+    color:rgba(255, 255, 255, 0.5);
     font-weight: 400;
     text-align: center;
     margin-top: -30px;
@@ -181,7 +282,7 @@ main{
     font-weight: 400;
     font-size: 0.70rem; 
     text-align: center;
-    margin-top: -20px;
+   margin-top: 10px;
 }
 .runan{
    max-width: 1440px;
@@ -194,13 +295,13 @@ main{
     justify-content: space-between;
     border-radius: 18px;
     background: rgba(34, 34, 34, 1);
-    gap: ;
+    
     
     
 }
 .run{
     margin-left: 54px;
-    margin-top: -20px ;
+    padding-top: 40px;
     width: 443px;
 
 
@@ -209,12 +310,13 @@ main{
    font-size: 3rem;
    font-weight: 900;
    color:  rgba(255, 255, 255, 1);
+   
 }
 .runpg{
     font-size: 0.70rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    margin-top: -50px;
+    padding-top: 20px;
    
 
 }
@@ -228,7 +330,7 @@ main{
     width: 224px;
      background-color:rgba(230, 83, 60, 1) ;
      padding: 16px 40px 16px 40px;
-     margin-top:30px ;
+     margin-top:35px ;
      border-radius: 42px;
      border: none; 
      margin-right: 20px;
@@ -242,6 +344,15 @@ main{
     margin-right: 30px;
     margin-bottom: 30px;
 }
+.bmi{
+    background-color: rgba(34, 34, 34, 1);
+    max-width: 1440px;
+    margin-top: 80px; 
+    
+}
+.bmitabil_from_contener{
+    padding: ;
+}
 .bmih3{
     color:  rgba(255, 255, 255, 1);
     font-size: 3rem;
@@ -253,14 +364,216 @@ main{
     font-size: 0.70rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: -30px;
+    text-align: left;
     text-align: center;
    
 }
-.footercontener{
-    background: rgba(34, 34, 34, 1);
-    display: flex;
-    justify-content: space-between;
-    margin: 0px auto;
+.chart{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.75rem;
+    font-weight: 900;
 
+}
+.yourpg{
+    font-size: 0.70rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmimainpart{
+    justify-content: space-between;
+    gap: 150px;
+   max-width:1060px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-top: 50px;
+    
+  
+}
+.chart{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 1) ;
+    
+}
+.bmicontener{
+    margin-left: 190px;
+    gap: 100px;
+    
+}
+.yourpg{
+    font-size: 0.70rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 15px;
+   
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+
+}
+th {
+   color:rgba(255, 255, 255, 1) ;
+   padding: 15px 23px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.weight{
+    width: 310px;
+    height: 216px;
+    margin-right: 40px;
+}
+.form-container{
+    margin-top:34px ;
+}
+.form-group{
+    max-width: 577px;
+    gap: 10px;
+}
+#height{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 35px 9px 17px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+#weights{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 35px 9px 17px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+.bmifrompg{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.6) ;
+}
+#age{
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 35px 9px 17px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+#sex{
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 35px 9px 17px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    color: rgba(255, 255, 255, 0.35);
+    font-weight: 200;    
+}
+#activity{
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 35px 9px 17px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(42, 41, 41);
+    max-width:1440px ;
+   
+}
+.footercontener{
+    width: 1060px;
+    padding: 20px 0;
+    display: flex;
+    margin-left: 190px;
+    justify-content: space-between;
+}
+.footerpg{
+    font-size: 0.70rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5) ;
+    margin-top: -40px;
+}
+
+.footer-column1 {
+    flex: 1;
+    padding: 0px 15px;
+    
+}
+.footer-column1 h3{
+    padding-bottom: 50px;
+}
+.footer-column {
+    flex: 1;
+    padding: 0px ;
+    padding-left: 80px;
+  
+}
+.footer-column h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 1) ;
+}
+.getstate{
+    margin-right: 190px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.30;
+    font-weight: 400;
+
+}
+.footerborder{
+    border: 2px;
+    color:rgba(255, 255, 255, 0.1) ;
+    width: 1060px;
+    height: 10px;
+    
+}
+.border-element {
+    width: 800px;
+    height: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 15px; /* Adjust as necessary */
+    opacity: 1; /* Makes the border visible */
+   margin-left: 50px;
+    
+}
+
+.lastpg{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
 }
