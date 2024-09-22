@@ -6,34 +6,48 @@
     <title>Fitness</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
-                
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css "/>
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">   
 </head>
 <body class="inter">
     <header class="mainheader">
            <div class="maincontener">
-            <div class="navber display-flex ">
-                <h3 class="fitness">Fitness</h3>
+           
+            <div class="navber  ">
+                <input type="checkbox" id="cheak">
+                <label for="cheak" class="cheakbtn">
+                    <i class="fa fa-bars"></i>
+                </label> 
+                <label class="fitness">Fitness </label>
                     <ul class="display-flex">
                         <li  class="home"> <a href="">Home</a> </li>
                         <li class="service"><a href="">Service</a></li>
                         <li class="contact"><a href="">Contact</a></li>
                         <li class="about"><a href="">About</a></li>
                     </ul>
+                    
             </div>
+
+
+
+
+
+
+           
           
 
          <div class="getbody display-flex">
             <div class="bodys">
                 <h3 class="bodyh3">Get body in <span class="shape">shape</span>  & stay  healthy</h3>
                <p class="bodypg">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
+               <div class="buttons">
                 <button class="bodybtn" ><a href="">Join Club Now!</a></button>
                 <button class="downlod"><a href="">Download App</a></button>
-                
+               </div>
             </div>
              <div class="bodyimg">
                 <img src="image/Images 2.png" alt="header image">
              </div>
-             
          </div>
           
          <div class="cardcontener">
@@ -110,18 +124,15 @@
         </section>
         
             <section class="bmi ">
-            <div class="bmitabil_from_contener">
-                <div class="bmimainpart display-flex">
-                    <div class="bmicalculator">
-                        <h5 class="chart">BMI Calculator Chart</h5>
-                    </div>                                                                               
-                    <div class="yourbmitabil">
-                        <h5 class="chart">Calculate your BMI</h5>
-                        <P class="yourpg">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </P>
-                    </div>
-                </div>
+            <div class="bmitabil_from_contener display-flex">
+                
                 <div class="bmitable  ">
+                    <h5 class="chart">BMI Calculator Chart</h5>
                     <div class="bmicontener display-flex">
+                        
+                            
+                      
+                       
                         <div class="weight">
                             <table>
                              <thead>
@@ -151,7 +162,15 @@
                             </table> 
                          </div>
                          <div class="form-container  bmifrompg">
+
                              <form>
+                                <div class="frommainpart">
+
+                               
+                                <div class="yourbmitabil">
+                                    <h5 class="charts">Calculate your BMI</h5>
+                                    <P class="yourpg">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </P>
+                                </div>
                                  <div class="form-group display-flex">
                                      <input type="number" id="height" name="height" placeholder="Height/cm">
                                      <input type="number" id="weights" name="weight" placeholder="Weight/kg">
@@ -181,6 +200,9 @@
                 </div>
             </div>
         </section>
+        
+        
+        
         <section class="meet_our_team">
             <div class="meetcontener">
                 <h3 class="meet_tittle">Meet Our Team</h3>
@@ -219,7 +241,7 @@
                     </div>
                  </div>
             </div>
-        </section>
+            </section>
     </main>
            
         
